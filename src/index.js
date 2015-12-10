@@ -30,7 +30,7 @@ export default moveSteering
  * @param  {String} rightPort letter of port for right motor
  */
 function moveSteering (leftPort, rightPort) {
-  this.motors = [Motor(leftPort), Motor(rightPort)]
+  this.motors = [new Motor(leftPort), new Motor(rightPort)]
 }
 
 /**
