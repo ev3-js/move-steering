@@ -19,7 +19,7 @@ var driveMotors = require('ev3-js-drivemotors')
 
 ## API
 
-### driveMotors(arg)
+### driveMotors(leftMotor, rightMotor)
 
 - `arg` -
 
