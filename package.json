@@ -11,7 +11,7 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
-    "ev3-js-motor": "^0.5.2"
+    "ev3-js-motor": "^0.5.3"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
