@@ -2,7 +2,7 @@
   "name": "move-steering",
   "description": "to make motors move at the same time",
   "repository": "git://github.com/ev3-js/move-steering.git",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
