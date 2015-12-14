@@ -31,18 +31,27 @@ driveMotors.go(360, 300, -100) // turn left
 
 **Returns:** a move steering instance that controls two motors
 
-### .runForever(speed, opts)
+### .forever(speed, opts)
 Run both motors until they receive a stop command.
 
 - `speed` - speed at which to run the motors
 - `opts` - an object of optional parameters
 
-### .go(degrees, speed, turn)
+### .degrees(degrees, speed, turn)
 Run both motors with the ability to turn.
 
 - `degrees` - number of degrees for the motor to spin
 - `speed` - speed at which to run the motors
 - `turn` - number between -100 and 100 to denote amount of turning. -100 is maximum left turn. 0 is straight. 100 is maximum right turn.
+
+### .timed(time, speed, turn)
+Run motor for a specified amount of time.
+
+  - `time` - time in milliseconds
+  - `speed` - speed at which to run the motors
+  - `turn` - number between -100 and 100 to denote amount of turning. -100 is maximum left turn. 0 is straight. 100 is maximum right turn.
+
+
 
 ### .stop()
 Stop both motors.
