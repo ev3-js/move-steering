@@ -16,9 +16,8 @@ to make motors move at the same time
 var MoveSteering = require('move-steering')
 var driveMotors = new MoveSteering('b', 'c')
 
-driveMotors.go(360, 300, 0) // move straight for 1 motor rotation
-driveMotors.go(360, 300, 100) // turn right
-driveMotors.go(360, 300, -100) // turn left
+driveMotors.degrees(360, 300, 0) // move straight for 1 motor rotation
+driveMotors.timed(2000, 300, 100) // turn right for 2 seconds
 ```
 
 ## API
