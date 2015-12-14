@@ -24,7 +24,6 @@ driveMotors.timed(2000, 300, 100) // turn right for 2 seconds
 
 ### MoveSteering(leftPort, rightPort)
 
-
 - `leftPort` - port letter of the left motor
 - `rightPort` - port letter of the right motor
 
@@ -50,11 +49,12 @@ Run both motor for a specified amount of time.
   - `speed` - speed at which to run the motors
   - `turn` - number between -100 and 100 to denote amount of turning. -100 is maximum left turn. 0 is straight. 100 is maximum right turn.
 
-
-
 ### .stop()
 Stop both motors.
 
+
+### .reset()
+Reset both motors.
 
 ## License
 
