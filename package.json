@@ -11,6 +11,6 @@
   "dependencies": {
     "101": "^1.2.0",
     "ev3-js-devices": "^0.4.12",
-    "ev3-js-motor": "^0.5.22"
+    "ev3-js-motor": "^0.5.24"
   }
 }
